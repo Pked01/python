@@ -10,6 +10,6 @@ print "\"Consider it done !\""
 print 'Python is a Object Oriented Scripting language\nIt\'s very elegant'
 # backlash at the end of a line indicates the continuation of the string in the next line
 print "Python is a Object Oriented Scripting language. \
-      It\'s very elegant."
+It\'s very elegant."
 # same using  triple quotes
 print '''Python is a Object Oriented Scripting language\nIt\'s very elegant'''
