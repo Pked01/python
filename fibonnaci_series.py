@@ -1,10 +1,16 @@
 # fibonnaci series using looping technique
-def fib(n):
-    a,b = 1,1
-    for i in range(n-1):
-         a,b = b, a+b
-    return a
+range = int(input('Enter length of the fibonnaci series to be printed : '))
 
-n = int(input('Enter a number'))
-print 'The fibonnaci series is'
-print fib(n)
+if range < 2:
+	n = int(input('Enter a number greater than 2 : '))
+
+a, b = 0, 1
+count  = 2
+print 'Printing first %d numbers in the fibonnaci series.................' % range
+print a
+
+while count < range + 1:
+    print b
+    a, b = b, a+b
+    count += 1
+	
