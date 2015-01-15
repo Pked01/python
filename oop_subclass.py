@@ -6,7 +6,7 @@ class SchoolMember:
         print '(Initialized SchoolMember : {})'.format(self.name)
 
     def tell(self):
-        print 'Name : {}, Age : {}'.format(self.name, self.age)
+        print 'Name : {}, Age : {}'.format(self.name, self.age),
 
 class Teacher(SchoolMember):
 
