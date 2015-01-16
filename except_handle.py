@@ -10,6 +10,7 @@ def except_handle():
        # print message for EOF error
        print 'Why did you EOF on me !'
     except KeyboardInterrupt:
+       # print message for keyboard interrupt
        print 'Why did you cancel me !'
     else:
        print 'You entered {}'.format(text)                	
