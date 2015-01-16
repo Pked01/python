@@ -7,6 +7,7 @@ def except_handle():
     try:
        text = raw_input('Enter something --> ')
     except EOFError:
+       # print message for EOF error
        print 'Why did you EOF on me !'
     except KeyboardInterrupt:
        print 'Why did you cancel me !'
