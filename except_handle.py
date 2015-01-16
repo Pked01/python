@@ -13,5 +13,6 @@ def except_handle():
     else:
        print 'You entered {}'.format(text)                	
 
+# print docstring
 print except_handle.__doc__
 except_handle()    
