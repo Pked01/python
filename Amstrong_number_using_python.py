@@ -1,4 +1,9 @@
+''This program checks whether a number 
+is a palindrome or not'''
+
+# get a number as input
 number = int(input('enter a number :'))
+
 copy_of_number = number
 sum = 0
 
