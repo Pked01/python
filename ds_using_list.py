@@ -1,4 +1,4 @@
-# This is a shopping list 
+# Create Shopping list containing various items
 shoppingList = ['Apple', 'Orange', 'Mango', 'Banana']
 
 print 'The items to buy are :'
