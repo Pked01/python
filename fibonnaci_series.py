@@ -11,6 +11,9 @@ print a
 
 while count < range + 1:
     print b
+    # Swapping two variables in python
+    # python evaluates the right hand side first and creates a tuple of two elements
+    # then left hand side is evluated and the first identifier is assinged to the first element of the tuple
     a, b = b, a+b
     count += 1
 	
