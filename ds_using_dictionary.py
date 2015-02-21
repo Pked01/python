@@ -1,3 +1,4 @@
+# This Dictionary with Keys and values seperated by colon(:)
 address_book = { 'Parthibhan' : 'parthibhank82@gmail.com',
                  'promotions' : 'promos@promail.com',
                  'Steve Jobs' : 'steve@apple.com',
